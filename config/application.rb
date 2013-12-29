@@ -10,7 +10,7 @@ if defined?(Bundler)
 end
 
 #For Heroku
-config.assets.initializers_on_precompile = false
+#config.assets.initializers_on_precompile = false
 
 module FirstApp
   class Application < Rails::Application
